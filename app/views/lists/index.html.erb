@@ -11,7 +11,7 @@
         <div class="card">
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text"><%= list.name %></p>
+            <p class="card-text"><%= link_to list.name, "/lists/#{list.id}", class: "nav-link" %></p>
           </div>
         </div>
       </div>
