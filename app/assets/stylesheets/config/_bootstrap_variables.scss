@@ -6,7 +6,7 @@
 // General style
 $font-family-sans-serif:'Montserrat', sans-serif;
 $headings-font-family:'Montserrat', sans-serif;
-$body-bg:                 $light-gray;
+$body-bg:                 $white;
 $font-size-base: 1rem;
 
 // $headers-font
@@ -27,3 +27,10 @@ $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
+
+$link-color:                              $white !default;
+$link-decoration:                         underline !default;
+$link-shade-percentage:                   20% !default;
+$link-hover-color:                        shift-color($link-color, $yellow) !default;
+$link-hover-decoration:                   null !default;
+$card-border-width:                 none;

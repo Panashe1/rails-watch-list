@@ -1,5 +1,5 @@
   .card-category {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(asset_path('movie.jpg'));
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(asset_path('category.jpg'));
     background-size: cover;
     background-position: center;
     height: 240px;
@@ -12,7 +12,7 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 25px 25px 25px 25px;
-    a{
-      color: white;
+    a:hover{
+      color: $yellow;
     }
   }
